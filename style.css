@@ -1,0 +1,104 @@
+body {
+  background: url(/Images/Background\ Image.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  align-items: top;
+  list-style: none;
+  padding: 0;
+}
+nav h2 {
+  margin-block-start: 20px;
+}
+nav img {
+  inline-size: 150px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 0 10px;
+}
+ul li a {
+  color: green;
+  text-decoration: none;
+  padding: 10px;
+  transform: color 0.3s ease, background-color 0.3s ease;
+}
+ul li a:hover {
+  color: chartreuse;
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px;
+}
+table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  margin-block-start: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+  transition: 0.3s ease-in-out;
+}
+form {
+  max-inline-size: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+}
+button {
+  inline-size: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: grab;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #0056b3;
+}
+div {
+  max-inline-size: 600px;
+  margin: 30px auto;
+  background: #f4f4f4;
+  text-align: center;
+}
+h4,
+h5 {
+  color: #007bff;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+p {
+  text-align: justify;
+  color: #333;
+  font-size: 16px;
+}
+video {
+  inline-size: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
