@@ -1,8 +1,21 @@
 body {
   background: url(/Images/Background\ Image.png) no-repeat center center fixed;
   background-size: cover;
+  display: flex;
 }
 
+#sidebar {
+  width: 30%;
+  position: fixed;
+}
+main {
+  width: 70%;
+  margin-left: 30%;
+}
+
+#profile {
+  border-radius: 100%;
+}
 nav {
   display: flex;
   align-items: top;
@@ -24,7 +37,7 @@ ul li {
   margin: 0 10px;
 }
 ul li a {
-  color: green;
+  color: white;
   text-decoration: none;
   padding: 10px;
   transform: color 0.3s ease, background-color 0.3s ease;
@@ -64,7 +77,6 @@ form {
   max-inline-size: 500px;
   margin: 20px auto;
   padding: 20px;
-  background: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
 }
@@ -81,24 +93,30 @@ button:hover {
   background: #0056b3;
 }
 div {
-  max-inline-size: 600px;
+  max-inline-size: 1400px;
   margin: 30px auto;
-  background: #f4f4f4;
   text-align: center;
 }
 h4,
 h5 {
-  color: #007bff;
+  color: white;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 p {
   text-align: justify;
-  color: #333;
+  color: white;
   font-size: 16px;
 }
 video {
   inline-size: 100%;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+h2 {
+  color: white;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
 }
