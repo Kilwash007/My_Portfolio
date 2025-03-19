@@ -5,12 +5,12 @@ body {
 }
 
 #sidebar {
-  width: 30%;
+  inline-size: 30%;
   position: fixed;
 }
 main {
-  width: 70%;
-  margin-left: 30%;
+  inline-size: 70%;
+  margin-inline-start: 30%;
 }
 
 #profile {
