@@ -37,7 +37,7 @@ ul li {
   margin: 0 10px;
 }
 ul li a {
-  color: white;
+  color: blue;
   text-decoration: none;
   padding: 10px;
   transform: color 0.3s ease, background-color 0.3s ease;
